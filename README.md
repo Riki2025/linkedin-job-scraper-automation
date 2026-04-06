@@ -1,14 +1,14 @@
-# 🛡️ Cybersecurity Job Scraper & WhatsApp Notifier
+# Cybersecurity Job Scraper & WhatsApp Notifier
 
 Automated tool to scrape **LinkedIn** for Cybersecurity Junior Hybrid roles and send notifications via **Twilio WhatsApp API**.
 
-## 🛠 Features
+## Features
 - **Specific Targeting:** Filters for Cybersecurity, Entry-Level/Junior, and Hybrid positions.
 - **Smart Notifications:** Sends a summary of the top 5 jobs found.
 - **Background Automation:** Runs 24/7 as a system service.
 - **Real-time Updates:** Checks every 4 hours for the latest postings.
 
-## 🚀 Setup & Installation
+## Setup & Installation
 
 ### 1. Prerequisites
 - Python 3.10+
@@ -52,5 +52,5 @@ To keep the scraper running forever:
    journalctl --user -u linkedin-job-scraper.service -f
    ```
 
-## 📜 License
+## License
 MIT
